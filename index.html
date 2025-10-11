@@ -163,7 +163,7 @@
 				<div class="home__container grid--container">
 					<div class="home__image">
 						<img
-							src="assets/img-jobs/Jobs.JPG"
+							src="assets/img-jobs/Cesar.jpeg"
 							alt="profile photo"
 							title="Cesar Desarrollador Web"
 						/>
@@ -363,6 +363,21 @@
 							<!--Card 5 -->
 							<details class="skills__cards-container" name="moreInfo">
 								<summary class="skills__cards-title flex--container">
+									<i class="bx bxl-typescript flex--container"></i>
+								</summary>
+								<div class="skills__card-container">
+									<h3 class="skills__card-title">TypeScript</h3>
+									<p class="skills__card-description">
+										Desarrollo robusto con tipado estático, interfaces y
+										genéricos, mejorando la mantenibilidad y fiabilidad del
+										código en proyectos complejos basados en React y Node.js.
+									</p>
+								</div>
+							</details>
+
+							<!--Card 6 -->
+							<details class="skills__cards-container" name="moreInfo">
+								<summary class="skills__cards-title flex--container">
 									<i class="bx bxl-python flex--container"></i>
 								</summary>
 								<div class="skills__card-container">
@@ -376,7 +391,7 @@
 									</p>
 								</div>
 							</details>
-							<!--Card 6 -->
+							<!--Card 7 -->
 							<details class="skills__cards-container" name="moreInfo">
 								<summary class="skills__cards-title flex--container">
 									<i class="bx bxl-mongodb flex--container"></i>
@@ -395,7 +410,7 @@
 									</p>
 								</div>
 							</details>
-							<!--Card 7 -->
+							<!--Card 8 -->
 							<details class="skills__cards-container" name="moreInfo">
 								<summary class="skills__cards-title flex--container">
 									<i class="bx bxl-aws flex--container"></i>
@@ -434,11 +449,11 @@
 					</div>
 				</div>
 			</section>
-
 			<section id="projects" class="projects section">
 				<h2 class="section__title" id="projects-title">Proyectos</h2>
 
 				<div class="projects__container grid--container">
+					<!-- Proyecto 1 -->
 					<div class="projects__project">
 						<div class="projects__inner grid--container">
 							<div class="projects__image">
@@ -462,55 +477,84 @@
 								</p>
 
 								<div class="projects__buttons">
-									<button class="btn projects__button" type="button">
+									<!-- Botón para ver la demo -->
+									<a
+										href="https://landing1-vet-gen45.netlify.app/"
+										target="_blank"
+										rel="noopener noreferrer"
+										class="btn projects__button"
+									>
 										<span id="project1-demo">VER DEMO</span>
-									</button>
-									<button class="btn projects__button" type="button">
+									</a>
+
+									<!-- Botón para ver el código -->
+									<a
+										href="https://github.com/Caquinterot/Lading-vet.gen45"
+										target="_blank"
+										rel="noopener noreferrer"
+										class="btn projects__button"
+									>
 										<span id="project1-code">VER CÓDIGO</span>
-									</button>
+									</a>
 								</div>
 							</div>
 						</div>
 					</div>
-
 					<div class="projects__project">
 						<div class="projects__inner grid--container">
 							<div class="projects__image">
 								<img
-									src="assets/img/project2.png"
-									alt="project 1"
-									title="Consumiendo API Pokemon con React"
+									src="assets/img-proyectos/pokedex.JPG"
+									alt="project 2"
+									title="Consumiendo API Pokémon con React"
 								/>
 							</div>
 
 							<div class="projects__info">
 								<h3 class="projects__name" id="project2-title">Proyecto 2</h3>
 								<p class="projects__description">
-									<span id="project2-desc"
-										>Lorem, ipsum dolor sit amet consectetur adipisicing
-										elit.</span
-									>
+									<span id="project2-desc">
+										Este proyecto es una Pokédex web desarrollada con React,
+										TypeScript y la PokéAPI. Permite explorar el universo
+										Pokémon de forma dinámica, con funcionalidades de búsqueda,
+										filtrado y visualización de detalles individuales. La
+										interfaz es responsiva y está diseñada para ofrecer una
+										experiencia fluida y amigable, integrando llamadas a API
+										externas, manejo de estados y componentes reutilizables.
+									</span>
 								</p>
 
 								<div class="projects__buttons">
-									<button class="btn projects__button" type="button">
+									<!-- 🔗 Botón para ver la demo -->
+									<a
+										href="https://poke-app-92.netlify.app/"
+										target="_blank"
+										rel="noopener noreferrer"
+										class="btn projects__button"
+									>
 										<span id="project2-demo">VER DEMO</span>
-									</button>
-									<button class="btn projects__button" type="button">
+									</a>
+
+									<!-- 💻 Botón para ver el código -->
+									<a
+										href="https://github.com/Caquinterot/Poke-app/tree/main/src"
+										target="_blank"
+										rel="noopener noreferrer"
+										class="btn projects__button"
+									>
 										<span id="project2-code">VER CÓDIGO</span>
-									</button>
+									</a>
 								</div>
 							</div>
 						</div>
 					</div>
-
 					<div class="projects__project">
 						<div class="projects__inner grid--container">
 							<div class="projects__image">
 								<img
-									src="assets/img/project3.jpg"
+									src="assets/img-proyectos/Rick-Morty-app.JPG"
 									alt="project 1"
-									title="CRUD con React"
+									title="Explorador Rick and Morty con React + Vite"
 								/>
 							</div>
 
@@ -518,29 +562,48 @@
 								<h3 class="projects__name" id="project3-title">Proyecto 3</h3>
 								<p class="projects__description">
 									<span id="project3-desc"
-										>Lorem, ipsum dolor sit amet consectetur adipisicing
-										elit.</span
+										>Aplicación web desarrollada con React y Vite que consume la
+										Rick and Morty API. Permite explorar locaciones y
+										personajes, buscar por nombre o ID, visualizar detalles
+										completos, paginar residentes y mostrar locaciones
+										aleatorias. Incorpora loaders dinámicos para una experiencia
+										fluida y responsiva. Este proyecto destaca el manejo
+										eficiente de datos externos, la navegación entre vistas y la
+										implementación de componentes reutilizables en un entorno
+										SPA moderno.</span
 									>
 								</p>
 
 								<div class="projects__buttons">
-									<button class="btn projects__button" type="button">
+									<!-- 🔗 Botón para ver la demo -->
+									<a
+										href="https://rickmorty-app-92.netlify.app/"
+										target="_blank"
+										rel="noopener noreferrer"
+										class="btn projects__button"
+									>
 										<span id="project3-demo">VER DEMO</span>
-									</button>
-									<button class="btn projects__button" type="button">
+									</a>
+
+									<!-- 💻 Botón para ver el código -->
+									<a
+										href="https://github.com/Caquinterot/rickmorty-app"
+										target="_blank"
+										rel="noopener noreferrer"
+										class="btn projects__button"
+									>
 										<span id="project3-code">VER CÓDIGO</span>
-									</button>
+									</a>
 								</div>
 							</div>
 						</div>
 					</div>
-
 					<div class="projects__project">
 						<div class="projects__inner grid--container">
 							<div class="projects__image">
 								<img
-									src="assets/img/project4.png"
-									alt="project 1"
+									src="assets/img-proyectos/Weather-app.JPG"
+									alt="project 4"
 									title="Aplicación del tiempo con React"
 								/>
 							</div>
@@ -548,24 +611,44 @@
 							<div class="projects__info">
 								<h3 class="projects__name" id="project4-title">Proyecto 4</h3>
 								<p class="projects__description">
-									<span id="project4-desc"
-										>Lorem, ipsum dolor sit amet consectetur adipisicing
-										elit.</span
-									>
+									<span id="project4-desc">
+										Aplicación web desarrollada con React y Vite que permite
+										consultar el clima actual de cualquier ciudad del mundo
+										utilizando la API de OpenWeatherMap. La interfaz es rápida,
+										responsiva y fácil de usar, integrando peticiones
+										asincrónicas, manejo de estados y componentes reutilizables.
+										Este proyecto demuestra la capacidad de consumir datos en
+										tiempo real y presentarlos de forma clara y accesible para
+										el usuario.
+									</span>
 								</p>
 
 								<div class="projects__buttons">
-									<button class="btn projects__button" type="button">
+									<!-- 🔗 Botón para ver la demo -->
+									<a
+										href="https://weather-app-92.netlify.app/"
+										target="_blank"
+										rel="noopener noreferrer"
+										class="btn projects__button"
+									>
 										<span id="project4-demo">VER DEMO</span>
-									</button>
-									<button class="btn projects__button" type="button">
+									</a>
+
+									<!-- 💻 Botón para ver el código -->
+									<a
+										href="https://github.com/Caquinterot/Weather-app"
+										target="_blank"
+										rel="noopener noreferrer"
+										class="btn projects__button"
+									>
 										<span id="project4-code">VER CÓDIGO</span>
-									</button>
+									</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				<!-- 👈 Cierra el .projects__container -->
 			</section>
 
 			<section id="contact" class="contact section">
@@ -573,66 +656,56 @@
 
 				<div class="contact__container grid--container">
 					<div class="contact__info">
-						<h3 class="contact__info-title" id="contact-info-title">
-							Información de contacto
-						</h3>
+						<h3 class="contact__info-title">Información de contacto</h3>
+
 						<p class="contact__info-description">
-							<span id="contact-info-desc"
-								>Puedes Contactarme por los siguientes medios:</span
-							>
+							<span id="contact-info-desc">
+								Puedes contactarme o conocer más sobre mi trabajo en los
+								siguientes medios:
+							</span>
 						</p>
 
 						<address class="contact__info-data">
+							<!-- LinkedIn -->
 							<div class="contact__info-item">
-								<i class="bx bxl-whatsapp"></i>
-
-								<span class="contact__info-number">
+								<i class="bx bxl-linkedin-square"></i>
+								<span class="contact__info-link">
 									<a
-										href="https://wa.me/0000000000000?text=Tu%20Mensaje%20De%20Texto"
+										href="https://www.linkedin.com/in/cesar-quintero-30b891265/"
 										target="_blank"
 										rel="noreferrer nofollow"
 									>
-										<span id="contact-whatsapp"
-											>Whatsapp: +57 323 315 5806</span
-										>
+										<span id="contact-linkedin">LinkedIn: César Quintero</span>
 									</a>
 								</span>
 							</div>
 
+							<!-- GitHub -->
 							<div class="contact__info-item">
-								<i class="bx bx-phone"></i>
-
-								<span class="contact__info-number">
+								<i class="bx bxl-github"></i>
+								<span class="contact__info-link">
 									<a
-										href="tel:57-323-315-5806"
+										href="https://github.com/Caquinterot"
 										target="_blank"
 										rel="noreferrer nofollow"
 									>
-										<span id="contact-phone">+57 323 315 5806</span>
+										<span id="contact-github">GitHub: cesarquintero-dev</span>
 									</a>
 								</span>
 							</div>
 
+							<!-- Email -->
 							<div class="contact__info-item">
 								<i class="bx bxs-envelope"></i>
-
 								<span class="contact__info-mail">
 									<a
 										id="mail"
-										href="mailto:test@correo.com"
+										href="mailto:quinteroaugusto28@gmail.com"
 										target="_blank"
 										rel="noreferrer nofollow"
 									>
 										<span id="contact-email">quinteroaugusto28@gmail.com</span>
 									</a>
-								</span>
-							</div>
-
-							<div class="contact__info-item">
-								<i class="bx bx-map"></i>
-
-								<span class="contact__info-map">
-									<span id="contact-location">Puerto Salgar, Colombia.</span>
 								</span>
 							</div>
 						</address>
