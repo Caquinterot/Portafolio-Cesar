@@ -619,14 +619,26 @@ html {
 	background-color: var(--bg-color-section1);
 
 	.skills__container {
+		display: flex;
+		flex-direction: column;
+		align-items: center; /* ✅ centra horizontalmente todo el contenido */
+		justify-content: center; /* ✅ centra verticalmente dentro del flujo */
+		text-align: center; /* ✅ alinea texto al centro */
+
 		.skills__description {
 			text-align: center;
 		}
+
 		/* SLIDER  */
 		.skills__wrapper {
+			display: flex;
+			justify-content: center; /* ✅ centra el bloque del slider */
+			width: 100%;
+
 			.skills__cards {
 				display: flex;
 				flex-direction: column;
+				align-items: center; /* ✅ centra las tarjetas dentro del contenedor */
 				gap: 1rem;
 				width: 100%;
 
@@ -655,6 +667,7 @@ html {
 							padding: 8px;
 						}
 					}
+
 					.skills__card-container {
 						color: var(--bg-color-section2);
 						height: 300px;
@@ -670,13 +683,19 @@ html {
 				}
 			}
 		}
+
 		.skills__tags {
 			flex-direction: column;
+			align-items: center; /* ✅ centra los tags */
 			margin-top: var(--m-4);
+
 			.skills__tags-container {
+				display: flex;
+				justify-content: center; /* ✅ centra los tags horizontalmente */
 				flex-wrap: wrap;
 				gap: 1rem;
 			}
+
 			.skills__tag {
 				display: inline-block;
 				padding: 0.75rem 1.5rem;
