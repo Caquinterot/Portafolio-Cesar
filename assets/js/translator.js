@@ -59,22 +59,22 @@ const translations = {
 
 		// Projects
 		'projects-title': 'Proyectos',
-		'project1-title': 'Proyecto 1',
+		'project1-title': 'Landing-Vet',
 		'project1-desc':
 			'Landing page moderna y atractiva diseñada para la veterinaria PetVet. Presenta información clara sobre servicios, contacto y valores de la marca, con un diseño responsivo y visual enfocado en transmitir confianza y cuidado hacia las mascotas.',
 		'project1-demo': 'VER DEMO',
 		'project1-code': 'VER CÓDIGO',
-		'project2-title': 'Proyecto 2',
+		'project2-title': 'Poke-app',
 		'project2-desc':
 			'Este proyecto es una Pokédex web desarrollada con React, TypeScript y la PokéAPI. Permite explorar el universo Pokémon de forma dinámica, con funcionalidades de búsqueda, filtrado y visualización de detalles individuales. La interfaz es responsiva y está diseñada para ofrecer una experiencia fluida y amigable, integrando llamadas a API externas, manejo de estados y componentes reutilizables. Es una muestra sólida de integración entre frontend moderno y consumo eficiente de datos públicos.',
 		'project2-demo': 'VER DEMO',
 		'project2-code': 'VER CÓDIGO',
-		'project3-title': 'Proyecto 3',
+		'project3-title': 'Rickmorty-app',
 		'project3-desc':
 			'Aplicación web desarrollada con React y Vite que consume la Rick and Morty API. Permite explorar locaciones y personajes, buscar por nombre o ID, visualizar detalles completos, paginar residentes y mostrar locaciones aleatorias. Incorpora loaders dinámicos para una experiencia fluida y responsiva. Este proyecto destaca el manejo eficiente de datos externos, la navegación entre vistas y la implementación de componentes reutilizables en un entorno SPA moderno.',
 		'project3-demo': 'VER DEMO',
 		'project3-code': 'VER CÓDIGO',
-		'project4-title': 'Proyecto 4',
+		'project4-title': 'Weather-app',
 		'project4-desc':
 			'Aplicación web desarrollada con React y Vite que permite consultar el clima actual de cualquier ciudad del mundo utilizando la API de OpenWeatherMap. La interfaz es rápida, responsiva y fácil de usar, integrando peticiones asincrónicas, manejo de estados y componentes reutilizables. Este proyecto demuestra la capacidad de consumir datos en tiempo real y presentarlos de forma clara y accesible para el usuario.',
 		'project4-demo': 'VER DEMO',
@@ -162,22 +162,22 @@ const translations = {
 
 		// Projects
 		'projects-title': 'Projects',
-		'project1-title': 'Project 1',
+		'project1-title': 'Landing-Vet',
 		'project1-desc':
 			'Modern and visually appealing landing page designed for the PetVet veterinary clinic. It presents clear information about services, contact details, and brand values, featuring a responsive design focused on conveying trust and care for pets.',
 		'project1-demo': 'VIEW DEMO',
 		'project1-code': 'VIEW CODE',
-		'project2-title': 'Project 2',
+		'project2-title': 'Poke-app',
 		'project2-desc':
 			'This project is a web-based Pokédex developed using React, TypeScript, and the PokéAPI. It allows users to dynamically explore the Pokémon universe with features for searching, filtering, and viewing individual Pokémon details. The interface is fully responsive and designed to deliver a smooth, user-friendly experience, integrating external API calls, state management, and reusable components. It stands as a solid example of modern frontend integration and efficient consumption of public data.',
 		'project2-demo': 'VIEW DEMO',
 		'project2-code': 'VIEW CODE',
-		'project3-title': 'Project 3',
+		'project3-title': 'Rickmorty-app',
 		'project3-desc':
 			'Web application built with React and Vite that consumes the Rick and Morty API. It enables users to explore locations and characters, search by name or ID, view detailed profiles, paginate residents, and display random locations. Dynamic loaders ensure a smooth and responsive experience. This project showcases efficient external data handling, view navigation, and reusable component implementation within a modern SPA environment.',
 		'project3-demo': 'VIEW DEMO',
 		'project3-code': 'VIEW CODE',
-		'project4-title': 'Project 4',
+		'project4-title': 'Weather-app',
 		'project4-desc':
 			'Web application built with React and Vite that allows users to check the current weather in any city worldwide using the OpenWeatherMap API. The interface is fast, responsive, and user-friendly, integrating asynchronous requests, state management, and reusable components. This project showcases the ability to consume real-time data and present it in a clear, accessible format for users.',
 		'project4-demo': 'VIEW DEMO',
