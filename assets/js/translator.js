@@ -7,7 +7,7 @@ const translations = {
 		nav_home: 'Inicio',
 		nav_about: 'Acerca de Mí',
 		nav_skills: 'Habilidades',
-		nav_projects: 'Portafolio',
+		nav_projects: 'Proyectos',
 		nav_contact: 'Contacto',
 
 		// Home
@@ -110,7 +110,7 @@ const translations = {
 		nav_home: 'Home',
 		nav_about: 'About Me',
 		nav_skills: 'Skills',
-		nav_projects: 'Portfolio',
+		nav_projects: 'Projects',
 		nav_contact: 'Contact',
 
 		// Home
