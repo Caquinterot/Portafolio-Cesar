@@ -47,6 +47,9 @@ const translations = {
 		skill_react_title: 'React',
 		skill_react_desc:
 			'Construcción de aplicaciones web dinámicas y modulares, con componentes reutilizables, hooks y manejo avanzado del estado para maximizar la escalabilidad.',
+		skill_ts_title: 'TypeScript',
+		skill_ts_desc:
+			'Desarrollo robusto con tipado estático, interfaces y genéricos, mejorando la mantenibilidad y fiabilidad del	código en proyectos complejos basados en React y Node.js.',
 		skill_py_title: 'Python',
 		skill_py_desc:
 			'Soluciones orientadas a datos, automatización de procesos y scripts eficientes para análisis, modelado y despliegue de aplicaciones.',
@@ -150,6 +153,9 @@ const translations = {
 		skill_react_title: 'React',
 		skill_react_desc:
 			'Building dynamic, modular web apps with reusable components, hooks, and advanced state management to maximize scalability.',
+		skill_ts_title: 'TypeScript',
+		skill_ts_desc:
+			'Robust development with static typing, interfaces, and generics, enhancing code maintainability and reliability in complex projects based on React and Node.js.',
 		skill_py_title: 'Python',
 		skill_py_desc:
 			'Data-oriented solutions, process automation, and efficient scripts for analysis, modeling, and application deployment.',
